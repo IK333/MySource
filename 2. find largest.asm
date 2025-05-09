@@ -1,5 +1,5 @@
 .model small
-.stack 100 h
+.stack 100h
 .data 
     num1 db 'Enter first number : $' 
     num2 db 'Enter second number : $' 
