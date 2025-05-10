@@ -56,7 +56,7 @@ main proc
     lea dx,msg
     int 21h   
     
-    cmp bh,bl   ; bh = num1, bl=num2, ch=num3
+    cmp bh,bl   
     jl level1
     jge level2
     
