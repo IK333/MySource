@@ -51,7 +51,7 @@ main proc
         inc si
         dec di
         cmp si,di
-        jbe compare_loop  ;Jump if Below or Equal
+        jbe compare_loop 
         lea dx, msg1
         jmp print_msg
         
